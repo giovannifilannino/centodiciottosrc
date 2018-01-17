@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory name="Centodiciottodb">
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+
+		<!-- PRODUZIONE -->
+<!-- 		<property name="hibernate.connection.password">gianni</property> -->
+<!-- 		<property name="hibernate.connection.url">jdbc:mysql://mysql:3306/centodiciottodb</property> -->
+<!-- 		<property name="hibernate.connection.username">gianni</property> -->
+		
+		<!-- LOCALE -->
+		<property name="hibernate.connection.password">root</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/centodiciottodb</property>
+		<property name="hibernate.connection.username">root</property>
+
+		<mapping class="com.gianni.model.Faccenda"/>
+		<mapping class="com.gianni.model.Utente" />
+	</session-factory>
+</hibernate-configuration>
