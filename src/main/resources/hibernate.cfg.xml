@@ -8,14 +8,14 @@
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
 
 		<!-- PRODUZIONE -->
-<!-- 		<property name="hibernate.connection.password">gianni</property> -->
-<!-- 		<property name="hibernate.connection.url">jdbc:mysql://mysql:3306/centodiciottodb</property> -->
-<!-- 		<property name="hibernate.connection.username">gianni</property> -->
+		<property name="hibernate.connection.password">gianni</property>
+		<property name="hibernate.connection.url">jdbc:mysql://mysql:3306/centodiciottodb</property>
+		<property name="hibernate.connection.username">gianni</property>
 		
 		<!-- LOCALE -->
-		<property name="hibernate.connection.password">root</property>
-		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/centodiciottodb</property>
-		<property name="hibernate.connection.username">root</property>
+<!-- 		<property name="hibernate.connection.password">root</property> -->
+<!-- 		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/centodiciottodb</property> -->
+<!-- 		<property name="hibernate.connection.username">root</property> -->
 
 		<mapping class="com.gianni.model.Faccenda"/>
 		<mapping class="com.gianni.model.Utente" />
