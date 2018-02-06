@@ -22,7 +22,6 @@ import com.google.gson.JsonObject;
 public class GestioneUtenti {
 
 	@GET
-	@RolesAllowed("ADMIN")
 	@Path("/getAll")
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getUtenti() {
